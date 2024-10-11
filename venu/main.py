@@ -1,5 +1,8 @@
 import streamlit as st
 
+st.set_page_config(layout = "wide")
+
+
 col1,col2 = st.columns(2)
 
 with col1:
@@ -15,4 +18,4 @@ with col2:
     He is now equipped with skills to pursue 
     opportunities in the tech industry.
 """  
-    st.write()
+    st.info(content)
